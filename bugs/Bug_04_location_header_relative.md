@@ -1,6 +1,6 @@
 # Bug 04: Location header after POST is missing its leading slash
 
-**Executive summary (<=80 chars):** Location header after POST has no leading slash (todos/3)
+**Executive summary:** Location header after POST has no leading slash (todos/3)
 
 Lowest-impact bug of the five. POST /todos returns 201 with a Location
 header, which is supposed to point at the new resource -- but it comes back
