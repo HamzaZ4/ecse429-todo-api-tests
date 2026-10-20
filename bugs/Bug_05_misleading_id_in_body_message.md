@@ -1,6 +1,6 @@
 # Bug 05: confusing error message when you put an id in a PUT body
 
-**Executive summary (<=80 chars):** Supplying id in PUT body gives confusing 'id should be ID' error
+**Executive summary:** Supplying id in PUT body gives confusing 'id should be ID' error
 
 Noticed this while writing the PUT validation tests. If you send an `id`
 field in a PUT /todos/:id body, you get back 400 with the message "Failed
