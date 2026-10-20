@@ -1,6 +1,6 @@
 # Bug 01: Rejected POST /todos still consumes an id
 
-**Executive summary (<=80 chars):** Rejected POST /todos still consumes an id
+**Executive summary:** Rejected POST /todos still consumes an id
 
 Found this by accident while poking at the error-handling tests. If a POST to
 /todos fails validation (empty body, empty title, bad doneStatus, whatever),
