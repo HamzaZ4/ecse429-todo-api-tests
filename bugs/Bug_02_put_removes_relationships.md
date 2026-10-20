@@ -1,6 +1,6 @@
 # Bug 02: PUT /todos/:id silently deletes the todo's project and category links
 
-**Executive summary (<=80 chars):** PUT /todos/:id silently deletes the todo's project and category links
+**Executive summary:** PUT /todos/:id silently deletes the todo's project and category links
 
 This one's the worst of the five, imo. If you PUT a todo that's linked to a
 project and a category (todo 1 in the default seed data is), those links
