@@ -1,6 +1,6 @@
 # Bug 03: doneStatus goes in as a boolean, comes back out as a string
 
-**Executive summary (<=80 chars):** doneStatus sent as boolean is returned as the string "true"/"false"
+**Executive summary:** doneStatus sent as boolean is returned as the string "true"/"false"
 
 Small one but it'll trip up anyone treating the API as strictly typed.
 doneStatus only accepts a real boolean on the way in -- if you send a string
